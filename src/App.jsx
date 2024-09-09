@@ -1,9 +1,9 @@
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Gallery from './Pages/Gallery';
-import Products from './Pages/Products';
-import SignUp from './Pages/SignUp';
-import Contact from './Pages/Contact';
+import Home from './Components/Home';
+import About from './Components/About';
+import Gallery from './Components/Gallery';
+import Products from './Components/Products';
+import SignUp from './Components/SignUp';
+import Contact from './Components/Contact';
 
 import React from 'react';
 import NavBar from './Components/Navbar';
