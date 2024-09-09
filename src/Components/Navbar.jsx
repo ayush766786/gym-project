@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa'; // Importing icons from react-icons
-import './NavBar.css';
+import './Navbar.css';
 
 const NavBar = () => {
   const [isMobile, setIsMobile] = useState(false); // State for mobile menu toggle
