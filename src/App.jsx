@@ -1,3 +1,10 @@
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Gallery from './Pages/Gallery';
+import Products from './Pages/Products';
+import SignUp from './Pages/SignUp';
+import Contact from './Pages/Contact';
+
 import React from 'react';
 import NavBar from './Components/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -12,13 +19,13 @@ function App() {
       <div>
         <NavBar />
         <Routes>
-          <Route path="/" element={<h1>Home Page</h1>} />
-          <Route path="/about" element={<h1>About Page</h1>} />
-          <Route path="/gallery" element={<h1>Gallery Page</h1>} />
-          <Route path="/product" element={<h1>Product Page</h1>} />
-          <Route path="/signup" element={<h1>SignUp Page</h1>} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/gallery" element={<Gallery/>} />
+          <Route path="/product" element={<Products/>} />
+          <Route path="/signup" element={<SignUp/>} />
          
-          <Route path="/contact" element={<h1>Contact Page</h1>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
       </div>
     </Router>
